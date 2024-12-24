@@ -45,6 +45,10 @@ A simple web application that allows users to view a menu, add items to their or
 3. Enter payment details in the provided form.
 4. Submit the payment to finalize the order.
 
+## Screenshot
+
+![Restaurant Order App Screenshot](./Screenshot%202024-12-23%20at%209.58.14%20PM.png)
+
 ## License
 
 This project is licensed under the MIT License.
@@ -52,4 +56,3 @@ This project is licensed under the MIT License.
 ## Contributing
 
 Feel free to fork the repository, create pull requests, and contribute improvements or fixes!
-
