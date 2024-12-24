@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+    <title>Jimmy's Diner</title>
+  </head>
+  <body>
+    <header>
+      <div class="margin-left-46px">
+      <h1>Jimmy's Diner</h1>
+      <h3>Best burgers and Pizza in town</h3>
+        </div>
+    </header>
+    <main>
+      <div class="menu-items">
+<!--        Add menu items here-->
+      </div>
+      <div id="order-details">
+
+          <h3>Your order</h3>
+          <div class="order-items">
+
+          </div>
+          <div class="order-total">
+            <h3>Total Price:</h3>
+            <h4 id="order-total-price">$100</h4>
+          </div>
+          <button type="submit" id="complete-order">Complete Order</button>
+      </div>
+      <div id="payment-capture" class="margin-46px">
+          <form id="payment-details">
+              <h3>Enter card details</h3>
+                <input name="customername" type="text" placeholder="Enter your name" required pattern="[a-zA-Z]+">
+                <input name="cardnumber" type="text" placeholder="Enter card number" required pattern="[0-9]{12}">
+                <input name="cvv" type="text" placeholder="Enter your CVV" required>
+              <button type="submit">Pay</button>
+          </form>
+      </div>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

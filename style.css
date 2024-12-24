@@ -1,0 +1,276 @@
+body,h1,h2,h3,h4,div,img,p{ margin:0;}
+body{
+    font-family: "Smythe", Inter, sans-serif;
+    width:600px;
+    margin:0 auto;
+}
+
+header{
+    color:#fff;
+    background: url("header-background.jpeg") 0 60%;
+    width: 600px;
+    height: 167px;
+    background-size: cover ;
+    margin: 0;
+}
+h1,h3{
+    margin:0;
+}
+h1{
+    font-weight: 400;
+    font-size:39px;
+    padding-top:46px;
+}
+
+h3
+{
+    font-size: 22px ;
+    font-weight: 400;
+}
+main{
+    position: relative;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    width:80%;
+    margin:auto;
+}
+
+#payment-capture
+{
+    position: absolute;
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: 60%;
+    top: 10%;
+    gap: 0;
+    border-radius: 3.89px 0 0 0;
+
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5.19px 5.19px 255.44px 0 #00000080;
+    border: 1.3px solid #757575
+}
+
+.margin-left-46px
+{
+    margin-left: 46px;
+}
+
+.margin-46px
+{
+    margin:46px;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.item
+{
+    display: flex;
+    /*width: 80%;*/
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D2D2D2;
+    justify-content: space-between;
+    gap:10px;
+    margin-top: 46px;
+}
+
+.item .emoji
+{
+    width: 70px;
+    height: 89px;
+    font-family: Inter, sans-serif;
+font-size: 78.72px;
+font-weight: 400;
+line-height: 98.4px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+.item-description
+{
+    flex-grow: 3;
+    padding: 5px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.add-item
+{
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-start;
+    width: 50px;
+    height: 50px;
+    color: #3C3C3C;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: center;
+    border: 1.5px solid #DEDEDE;
+    cursor: pointer;
+}
+
+.add-item:hover
+{
+    border: 1.5px solid #16DB99;
+}
+
+.item-description h3{
+   line-height: 16.8px;
+    text-align: left;
+}
+
+.item-description p{
+    font-family: "Smythe", Inter, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+  color: #8B8B8B;
+}
+
+.item-description h4{
+    line-height: 24px;
+    text-align: left;
+}
+
+#order-details
+{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    margin: 46px auto;
+}
+
+#complete-order{
+    height: 60px;
+    padding: 18px 0;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    background: #16DB99;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    border:none;
+}
+
+.order-total
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top:46px;
+    margin-bottom:46px;
+    padding-top:12px;
+    border-top: 2px solid #393333
+}
+
+.order-item{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-top:23px;
+    align-items: center;
+    gap:10px;
+
+}
+
+.order-item button{
+    border:none;
+    background-color: #ffffff;
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+.order-item h4{
+    justify-self: flex-end;
+    align-self: flex-end;
+    flex-grow: 5;
+    text-align: right;
+}
+
+.order-item h3,
+.item-description h3,
+.order-total h3{
+     font-family: "Smythe", Inter, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+.order-item h4,
+.item-description h4,
+.order-total h4{
+font-family: "Smythe", Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#payment-details{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    gap:20px;
+    height: 80%;
+}
+
+#payment-details h3{
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#payment-details button{
+    height: 60px;
+    padding: 18px 0;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    background: #16DB99;
+    font-family: Verdana, Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    justify-self: flex-end;
+
+    margin-top:20px;
+}
+
+#payment-details input{
+    border: 1.3px solid #757575;
+    border-radius: 2px;
+    font-family: Verdana;
+font-size: 20px;
+font-weight: 400;
+line-height: 31.12px;
+text-align: left;
+    color: #757575;
+    padding: 20px;
+
+
+}
+
+.order-placed{
+    font-family: Smythe,Inter,sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    background-color: #ECFDF5;
+    color: #065F46;
+    /*height: 120px;*/
+    padding: 46px;
+
+;
+}
